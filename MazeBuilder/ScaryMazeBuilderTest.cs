@@ -25,8 +25,8 @@ public class ScaryMazeBuilderTest
                    .AddRock(5, 6)
                    .AddRock(5, 4)
                    .AddRock(4, 5)
-                   // .AddGhost(5, 5) // не работает :(
-                   // .AddGhost(15, 5)  // не работает :(
+                   .AddGhost(5, 5) 
+                   .AddGhost(15, 5)
                    .Build();
     }
 }

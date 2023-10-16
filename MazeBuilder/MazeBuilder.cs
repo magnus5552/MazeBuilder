@@ -4,13 +4,13 @@ public class MazeBuilder<T> where T : MazeBuilder<T>
 {
     protected Maze maze = new Maze();
     
-    public MazeBuilder<T> AddRock(int x, int y)
+    public T AddRock(int x, int y)
     {
         // добавляем камень
         return (T)this;
     }
 
-    public MazeBuilder<T> AddWater(int x, int y)
+    public T AddWater(int x, int y)
     {
         // добавляем воду
         return (T)this;
